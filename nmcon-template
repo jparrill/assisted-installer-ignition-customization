@@ -15,7 +15,7 @@ dns-search=
 method=manual
 addresses=$IP/$PREFIX
 gateway=$GATEWAY
-dns=$DNS1,$DNS2
+dns=$DNS1
 dns-search=$SEARCH_DOMAIN
 
 [ipv6]
