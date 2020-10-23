@@ -1,0 +1,1 @@
+{"overwrite": true,"path": "/etc/sysconfig/network-scripts/ifcfg-ens3","mode": 420,"user": {"name": "root"},"contents": { "source": "data:;base64,IFCFG_BASE64" }}
