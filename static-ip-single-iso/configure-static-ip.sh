@@ -133,6 +133,7 @@ function correlate_int_mac() {
     export IFCFG_FILE="/etc/sysconfig/network-scripts/ifcfg-${FOUND_INTERFACE}"
     envsubst < ${AI_NM_CONN_TEMP_PATH} > ${NM_KEY_FILE}
     envsubst < ${AI_IFCFG_TEMP_PATH} > ${IFCFG_FILE}
+    chmod 600 ${NM_KEY_FILE}
 }
 
 env_vars
