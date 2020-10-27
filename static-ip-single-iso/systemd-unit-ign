@@ -1,0 +1,1 @@
+{"name": "configure-static-ip.service","enabled": true,"contents": "[Unit]\nDescription=Static IP Configuration\nBefore=NetworkManager.service\nDefaultDependencies=no\n[Service]\nUser=root\nType=oneshot\nTimeoutSec=10\nExecStart=/bin/bash /var/tmp/configure-static-ip.sh\nRemainAfterExit=no\n[Install]\nRequiredBy=local-fs.target"}

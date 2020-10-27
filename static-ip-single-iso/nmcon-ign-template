@@ -1,1 +1,0 @@
-{"overwrite": true,"path": "/etc/NetworkManager/system-connections/ens3.nmconnection","mode": 400,"user": {"name": "root"},"contents": { "source": "data:;base64,NMCON_BASE64" }}
