@@ -2,7 +2,7 @@
 
 CSV_FILE=${1}
 CSV_DEST=/tmp/AI_STATIC_INV
-IGN_FILE=./csv-inventory.ign
+IGN_FILE=./csv-inventory-ign
 
 if [ -z $CSV_FILE ]
 then
