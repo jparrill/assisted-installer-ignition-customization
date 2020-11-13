@@ -16,7 +16,7 @@ id=\$FOUND_INTERFACE
 interface-name=\$FOUND_INTERFACE
 type=ethernet
 multi-connect=3
-autoconnect=yes
+autoconnect=true
 autoconnect-priority=1
 
 [ethernet]
