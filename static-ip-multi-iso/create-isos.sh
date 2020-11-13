@@ -7,7 +7,7 @@ export SEARCH_DOMAIN=e2e.bos.redhat.com
 export DNS1=192.168.122.1
 export DNS2=8.8.8.8
 
-ISO=discovery_image_ocp.iso
+ISO=rhcos_ocp.iso
 SCRIPTPATH="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 IFCFG_TEMPLATE=${SCRIPTPATH}/ifcfg-template
 NMCON_TEMPLATE=${SCRIPTPATH}/nmcon-template
